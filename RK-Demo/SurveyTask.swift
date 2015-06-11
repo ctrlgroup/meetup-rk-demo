@@ -50,7 +50,7 @@ var surveyTask: ORKTask {
     // Please describe any other parts of the seizure in as much detail as you can
     let textAnswerFormat = ORKAnswerFormat.textAnswerFormat()
     let freeTextstep = ORKQuestionStep(identifier: "freeTextstep", title: "Other details", answer: ORKAnswerFormat.textAnswerFormat())
-    freeTextstep.text = "Please note any other infomration regarding the seizure in as much detail as you can"
+    freeTextstep.text = "Please note any other information regarding the seizure in as much detail as you can"
     steps += [freeTextstep]
     
     // Add a summary step.
